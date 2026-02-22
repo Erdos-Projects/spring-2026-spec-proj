@@ -1,0 +1,39 @@
+name: fraud-detection-gnn
+channels:
+  - pyg
+  - pytorch
+  - dglteam
+  - conda-forge
+  - defaults
+dependencies:
+  # Base Language
+  - python>=3.9
+
+  # Deep Learning Frameworks
+  - pytorch
+  - torchvision
+  - torchaudio
+
+  # Graph Libraries (PyG and DGL)
+  - pyg
+  - dgl
+
+  # PyG Extensions
+  - pytorch-scatter
+  - pytorch-sparse
+  - pytorch-cluster
+  - pytorch-spline-conv
+
+  # Data Manipulation & Traditional ML
+  - pandas
+  - numpy
+  - networkx
+  - scikit-learn
+
+  # Data Collection & API 
+  - kaggle
+  - python-dotenv
+
+  # Visualization & Notebooks
+  - matplotlib
+  - jupyter
