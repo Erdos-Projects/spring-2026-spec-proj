@@ -3,3 +3,6 @@ data/
 data/
 .ipynb_checkpoints/
 .DS_Store
+XGBoost/elliptic_txs_edgelist.csv
+XGBoost/elliptic_txs_features.csv
+XGBoost/elliptic_txs_classes.csv
